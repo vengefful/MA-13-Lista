@@ -1,0 +1,35 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+\pagestyle{empty}
+\begin{document}
+\definecolor{uuuuuu}{rgb}{0.26666666666666666,0.26666666666666666,0.26666666666666666}
+\definecolor{zzttqq}{rgb}{0.6,0.2,0.}
+\definecolor{ududff}{rgb}{0.30196078431372547,0.30196078431372547,1.}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+\clip(-1.3014863969151875,-7.985233283811496) rectangle (24.674506848772854,6.165987249046409);
+\fill[line width=2.pt,color=zzttqq,fill=zzttqq,fill opacity=0.10000000149011612] (6.38,3.92) -- (13.58,-3.28) -- (0.36,-0.92) -- cycle;
+\draw [line width=2.pt,color=zzttqq] (6.38,3.92)-- (13.58,-3.28);
+\draw [line width=2.pt,color=zzttqq] (13.58,-3.28)-- (0.36,-0.92);
+\draw [line width=2.pt,color=zzttqq] (0.36,-0.92)-- (6.38,3.92);
+\draw [line width=0.4pt,dash pattern=on 4pt off 4pt] (13.58,-3.28)-- (23.603867676135742,-5.069434774257212);
+\draw [line width=0.4pt,dash pattern=on 4pt off 4pt] (6.38,3.92)-- (23.603867676135742,-5.069434774257212);
+\begin{scriptsize}
+\draw [fill=ududff] (6.38,3.92) circle (2.5pt);
+\draw[color=ududff] (6.496124917108523,4.216584420540473) node {$A$};
+\draw [fill=ududff] (13.58,-3.28) circle (2.5pt);
+\draw[color=ududff] (13.700090925332077,-2.9873815876831094) node {B};
+\draw [fill=ududff] (0.36,-0.92) circle (2.5pt);
+\draw[color=ududff] (0.4794495204852897,-0.6288448322067919) node {$C$};
+\draw[color=zzttqq] (10.314708235498736,0.4621789730475591) node {$c$};
+\draw[color=zzttqq] (6.7688808684221105,-2.281425007812647) node {$a$};
+\draw[color=zzttqq] (3.078653291826527,1.7938697941668402) node {$b$};
+\draw [fill=uuuuuu] (23.603867676135742,-5.069434774257212) circle (2.0pt);
+\draw[color=uuuuuu] (23.952505801178066,-4.752273037359266) node {D};
+\draw[color=black] (18.625742516700964,-4.415339215148363) node {c};
+\end{scriptsize}
+\end{tikzpicture}
+\end{document}
