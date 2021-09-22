@@ -13,10 +13,11 @@
 \usepackage{tikz}
 \usetikzlibrary{arrows}
 \usepackage{verbatim}
-\usepackage[numbered]{mcode}
+%\usepackage[numbered]{mcode}
 \usepackage{titlesec}
 \usepackage{float}
 \usepackage{tikz}
+\usepackage{tocloft}
 \usepackage{standalone}
     \usetikzlibrary{shapes,arrows}
     \usetikzlibrary{arrows,calc,positioning}
@@ -54,6 +55,7 @@
 \newenvironment{solution}
     {\textit{Solução:}}
     {}
+
 
 
 \renewcommand{\qed}{\quad\qedsymbol}
@@ -473,6 +475,7 @@ Se a interseção de duas regiões convexas de um plano não for o conjunto vazi
    \]  
    e portanto, $\overline{BF} = \overline{CF}$.
 \end{solution}
+
 \noindent\rule{7in}{2.8pt} \\
 
 \begin{problem}{2.3.6}
@@ -750,8 +753,159 @@ Se a interseção de duas regiões convexas de um plano não for o conjunto vazi
 \end{problem}
 
 \begin{solution}
-    
+    Vejamos o esboço da figura \ref{fig:2.4.7}
+    \begin{figure}[H]
+        \centering
+        \includestandalone[scale=0.5]{figures/2.4.7}
+        \caption{Problema 2.4.7}
+        \label{fig:2.4.7}
+    \end{figure}
+    Temos que pela desigualdade triangular no triângulo \textit{ACP} e no triângulo \textit{BDP} que:
+    \[
+    \overline{AC} < \overline{PA} + \overline{PC}
+    .\] 
+    \[
+    \overline{BD} < \overline{PB} + \overline{PD}
+    .\] 
+    Somando as desigualdes, temos:
+    \[
+    \overline{AC} +\overline{BD} < \overline{PA} + \overline{PB}+\overline{PC} + \overline{PD}
+    .\] 
+    Agora vamos supor que exista um ponto \textit{Q} no qual $\overline{QA} + \overline{QB} + \overline{QC} + \overline{QD}$ é mínimo. Dessa forma temos dois casos:
+    \begin{enumerate}[\textbf{\arabic*}:]
+        \item $Q \in ABCD$ e  $Q \notin AC$ e $Q \notin BD$ \\
+            \[
+            \overline{QB} + \overline{QD} > \overline{DB} = \overline{PB} + \overline{PD}
+            .\] 
+            \[
+            \overline{QA} + \overline{QC} > \overline{AC} = \overline{PA} + \overline{PC}
+            .\] 
+            \[
+            \overline{QA} + \overline{QB}+\overline{QC} + \overline{QD} > \overline{PA}+ \overline{PB} + \overline{PC} + \overline{PD}
+            .\] 
+        \item $Q \in AC$ e  $Q \notin BD$ \\
+            \[
+            \overline{QA} + \overline{QC} > \overline{AC} = \overline{PA} + \overline{PC}
+            .\] 
+            \[
+            \overline{QB} + \overline{QD} > \overline{BD} = \overline{PB} + \overline{PD}
+            .\] 
+            \[
+            \overline{QA} + \overline{QB}+\overline{QC} + \overline{QD} > \overline{PA}+ \overline{PB} + \overline{PC} + \overline{PD}
+            .\] 
+    \end{enumerate}
+    Assim, $\overline{PA} + \overline{PA} + \overline{PC} + \overline{PD}$ é mínimo.
 \end{solution}
+
+\noindent\rule{7in}{2.8pt}
+
+\section{Quadriláteros notáveis}
+
+\begin{problem}{2.5.3}
+    \phantomsection
+    \label{prob:2.5.3}
+    Uma reta \textit{r} passa pelo baricentro \textit{G} de um triângulo \textit{ABC} e deixa o vértice \textit{A} de um lado e os vértices \textit{B} e \textit{C} do outro. Prove que a soma das distâncias de \textit{B} e \textit{C} à reta \textit{r} é igual à distância de \textit{A} a \textit{r}.           
+\end{problem}
+
+\begin{solution}
+    \begin{figure}[H]
+        \centering
+        \includestandalone[scale=1.0]{figures/2.5.3}
+        \caption{Problema 2.5.3}
+        \label{fig:2.5.3}
+    \end{figure}
+    Sejam \textit{M} o ponto médio de $\overline{BC}$, \textit{P} e \textit{Q} os pés das perpendiculares baixadas de \textit{A} e \textit{M} à reta \textit{r}. Marcando os pontos \textit{R} e \textit{S} tais que \textit{R} é o ponto médio de $\overline{AG}$ e \textit{S} o pé da perpendicular baixada de \textit{R} à reta \textit{r}. Marcamos também os pontos \textit{T} e \textit{V} que são os pés das perpendiculares baixadas de \textit{B} e \textit{C} respectivamente em relação a reta \textit{r}. Temos que $\overline{AM}$ é mediana, \textit{G} é baricentro e \textit{R} o ponto médio de $\overline{AG}$, então $\overline{AR}=\overline{RG}=\overline{GM}$. $S\hat{G}R=M\hat{G}Q$ (OPV) e $G\hat{S}R=M\hat{Q}G=90^\circ$, logo pelo caso $LAA_{o}$, temos $\Delta RGS \equiv \Delta GQM$, portanto,  $\overline{RS}=\overline{QM}$. \\ \\
+    Em \textit{APG}, $\overline{RS}=\frac{1}{2}\overline{AP}$. \\ \\
+    Queremos mostrar que $\overline{AP} = \overline{BT} + \overline{CV}$. \\ \\
+    No trapézio \textit{BCVT}, $\overline{MQ} \parallel \overline{BT} \parallel \overline{CV}$. Como \textit{M} é ponto médio de $\overline{BC}$, pelo teorema da base média para trapézios, temos $\overline{QM} = \frac{\overline{BT}+\overline{CV}}{2}$. \\\\
+    Como $\overline{QM} = \frac{1}{2}\overline{AP}$, temos:
+    \[
+        \frac{1}{2}\overline{AP}=\frac{1}{2}\left( \overline{BT}+\overline{CV} \right) \implies \overline{AP}=\overline{BT}+\overline{CV} 
+    .\] 
+\end{solution}
+
+\noindent\rule{7in}{2.8pt} \\
+
+\begin{problem}{2.5.5}
+    \phantomsection
+    \label{prob:2.5.5}
+    Prove que, em todo triângulo, a soma dos comprimentos das medianas é menor que $\frac{3}{2}$ do perímetro e maior que $\frac{3}{4}$ do perímetro do triângulo.
+    
+\end{problem}
+
+\begin{solution}
+    \begin{figure}[H]
+        \centering
+        \includestandalone[scale=0.8]{figures/2.5.5}
+        \caption{Problema 2.5.5}
+        \label{fig:2.5.5}
+    \end{figure}
+    Sejam $m_a=\overline{AM_a}$, $m_b=\overline{BM_b}$, $m_c=\overline{CM_c}$ e $\overline{AB}=c$, $\overline{AC}=b$ e $\overline{BC}=a$. Queremos mostrar que:
+    \[
+        m_a+m_b+m_c < \frac{3}{2}\left( a+b+c \right) 
+    .\] 
+    \[
+        m_a+m_b+m_c > \frac{3}{4}\left( a+b+c \right) 
+    .\] 
+    Sabemos que se \textit{G} é um ponto situado no interior de \textit{ABC}, então:
+    \[
+    \overline{GA} + \overline{GB} + \overline{GC} < a + b + c
+    .\] 
+    Pelo fato de \textit{G} ser o baricentro do triângulo \textit{ABC}, temos que:
+    \[
+    \overline{GA} = \frac{2}{3}m_a
+    .\] 
+    \[
+    \overline{GB} = \frac{2}{3}m_b
+    .\] 
+    \[
+    \overline{GC} = \frac{2}{3}m_c
+    .\] 
+    Daí,
+    \[
+        \frac{2}{3}\left( m_a+m_b+m_c \right) < a+b+c 
+    .\] 
+    Multiplicando por $\frac{3}{2}$, obtemos a primeira parte:
+    \[
+        m_a+m_b+m_c < \frac{3}{2}\left( a+b+c \right) 
+    .\] 
+    Para a próxima inequação, aplicando a desigualdade triangular aos triângulos $M_aGM_b$,  $M_bGM_c$ e  $M_cGM_c$, temos respectivamente:
+    \[
+    \overline{GM_a} + \overline{GM_b} > \overline{M_aM_b}
+    .\] 
+    Pelo fato de \textit{G} ser o baricentro, segue que $\overline{GM_a}=\frac{1}{3}M_a$, $\overline{GM_b}=\frac{1}{3}m_b$ e pelo teorema da base média, vem $\overline{M_aM_b} = \frac{c}{2}$. Substituindo na inequação acima, temos:
+    \[
+        \frac{1}{3}m_a+\frac{1}{3}m_b > \frac{c}{2} \implies \frac{2}{3}\left( m_a+m_b \right) > c
+    .\] 
+    Analogamente, temos: \\\\
+    No triângulo $M_bGM_c$,
+    \[
+        \frac{1}{3}m_b+\frac{1}{3}m_c > \frac{a}{2}
+    .\] 
+    \[
+        \frac{2}{3}\left( m_b+m_c \right) > a
+    .\] 
+    No triângulo $M_cGM_a$,
+    \[
+    \frac{1}{3}m_a+\frac{1}{3}m_c > \frac{b}{2}
+    .\] 
+    \[
+        \frac{2}{3}\left( m_b+m_c \right) > b
+    .\] 
+    Somando membro a membro as desigualdades, obtemos:
+    \[
+        \frac{2}{3}\left( 2m_a+2m_b+2m_c \right) > a+b+c 
+    .\] 
+    \[
+        \frac{4}{3}\left( m_a+m_b+m_c \right) > a+b+c 
+    .\] 
+    Multiplicando por $\frac{3}{4}$, concluímos que:
+    \[
+        \left( m_a+m_b+m_c \right) > \frac{3}{4}a+b+c 
+    .\] 
+\end{solution}
+
+\noindent\rule{7in}{2.8pt} \\
 
 \end{document}
 

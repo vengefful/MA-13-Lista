@@ -1,0 +1,38 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+\pagestyle{empty}
+\begin{document}
+\definecolor{uuuuuu}{rgb}{0.26666666666666666,0.26666666666666666,0.26666666666666666}
+\definecolor{zzttqq}{rgb}{0.6,0.2,0.}
+\definecolor{ududff}{rgb}{0.30196078431372547,0.30196078431372547,1.}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+\clip(1.565800003753647,-6.1488274668086165) rectangle (21.11486214062924,3.9996556436824084);
+\fill[line width=2.pt,color=zzttqq,fill=zzttqq,fill opacity=0.10000000149011612] (9.38,3.5) -- (2.84,-3.96) -- (19.72,-5.7) -- cycle;
+\draw [line width=2.pt,color=zzttqq] (9.38,3.5)-- (2.84,-3.96);
+\draw [line width=2.pt,color=zzttqq] (2.84,-3.96)-- (19.72,-5.7);
+\draw [line width=2.pt,color=zzttqq] (19.72,-5.7)-- (9.38,3.5);
+\draw [line width=2.pt] (9.38,3.5)-- (11.28,-4.83);
+\draw [line width=2.pt] (2.84,-3.96)-- (14.55,-1.1);
+\draw [line width=2.pt] (19.72,-5.7)-- (6.11,-0.23);
+\begin{scriptsize}
+\draw [fill=ududff] (9.38,3.5) circle (2.5pt);
+\draw[color=ududff] (9.459064645246675,3.717753335057658) node {$A$};
+\draw [fill=ududff] (2.84,-3.96) circle (2.5pt);
+\draw[color=ududff] (2.509309771395671,-3.9914118395783804) node {$B$};
+\draw [fill=ududff] (19.72,-5.7) circle (2.5pt);
+\draw[color=ududff] (20.033277772844478,-5.72885055804113) node {$C$};
+\draw[color=zzttqq] (5.995693424999735,-0.010260868796187761) node {$c$};
+\draw[color=zzttqq] (11.300059313816478,-5.038477557327455) node {$a$};
+\draw[color=zzttqq] (14.705899450670612,-0.8617209030097204) node {$b$};
+\draw[color=black] (9.95958507076409,-0.43023777756367343) node {$m_a$};
+\draw[color=black] (8.797457186229403,-2.581900296454627) node {$m_b$};
+\draw[color=black] (13.04325114061851,-2.6624438132045567) node {$m_c$};
+\draw [fill=uuuuuu] (10.646666666666668,-2.0533333333333332) circle (2.0pt);
+\draw[color=uuuuuu] (10.77077334660266,-1.6901685038661307) node {$G$};
+\end{scriptsize}
+\end{tikzpicture}
+\end{document}

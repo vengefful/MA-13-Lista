@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.9.7)  19 SEP 2021 23:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.9.21)  21 SEP 2021 23:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -122,31 +122,14 @@ Package: babel 2021/01/26 3.53 The Babel package
 File: babel.def 2021/01/26 3.53 Babel common definitions
 \babel@savecnt=\count268
 \U@D=\dimen156
-\l@babelnohyphens=\language3
+\l@babelnohyphens=\language4
  (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 )
 \bbl@dirlevel=\count269
-
-
-/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty:1120: Package babel Error: Unknown option `portuguese'. Either you misspelled it
-(babel)                or the language definition file portuguese.ldf was not found.
-
-See the babel package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1120 \ProcessOptions*
-                       
-Valid options are, among others: shorthands=, KeepShorthandsActive,
-activeacute, activegrave, noconfigs, safe=, main=, math=
-headfoot=, strings=, config=, hyphenmap=, or a language name.
-
-Package babel Info: You haven't specified a language. I'll use 'nil'
-(babel)             as the main language. Reported on input line 1159.
-(/usr/share/texlive/texmf-dist/tex/generic/babel/nil.ldf
-Language: nil 2021/01/26 3.53 Nil language
-\l@nil=\language4
+ (/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuguese.ldf
+Language: portuges 2020/05/04 v1.2r Portuguese support from the babel system
+Package babel Info: Making " an active character on input line 143.
 )) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
@@ -185,7 +168,7 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen157
 \Gin@req@width=\dimen158
-) (./cancel.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/cancel/cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks28
@@ -202,7 +185,8 @@ Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks29
 \pgfkeys@temptoks=\toks30
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks31
 ))
 \pgf@x=\dimen161
@@ -241,8 +225,7 @@ File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -282,7 +265,8 @@ File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@yy=\dimen183
 \pgf@zx=\dimen184
 \pgf@zy=\dimen185
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@path@lastx=\dimen186
 \pgf@path@lasty=\dimen187
@@ -306,8 +290,7 @@ File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@pt@temp=\dimen193
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
@@ -343,7 +326,8 @@ Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@nodesepend=\dimen197
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
-)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen198
@@ -380,8 +364,7 @@ File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@matrix@numberofcolumns=\count291
 )
 \tikz@expandcount=\count292
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
@@ -393,51 +376,63 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks40
 \verbatim@line=\toks41
 \verbatim@in@stream=\read4
-) (./mcode.sty
--- Package: `mcode' 2.4 <2013/11/05> --
-Package: mcode 2013/11/05 2.4
- - settings optimized for display (colour formating)
- - line numbering enabled
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count293
-\lst@gtempboxa=\box61
-\lst@token=\toks42
-\lst@length=\count294
-\lst@currlwidth=\dimen266
-\lst@column=\count295
-\lst@pos=\count296
-\lst@lostspace=\dimen267
-\lst@width=\dimen268
-\lst@newlines=\count297
-\lst@lineno=\count298
-\lst@maxwidth=\dimen269
- (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count299
-\lst@skipnumbers=\count300
-\lst@framebox=\box62
-) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2020/03/24 1.8d listings configuration
-))
-Package: listings 2020/03/24 1.8d (Carsten Heinz)
 ) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box63
+\ttl@box=\box61
 \beforetitleunit=\skip56
 \aftertitleunit=\skip57
-\ttl@plus=\dimen270
-\ttl@minus=\dimen271
-\ttl@toksa=\toks43
-\titlewidth=\dimen272
-\titlewidthlast=\dimen273
-\titlewidthfirst=\dimen274
+\ttl@plus=\dimen266
+\ttl@minus=\dimen267
+\ttl@toksa=\toks42
+\titlewidth=\dimen268
+\titlewidthlast=\dimen269
+\titlewidthfirst=\dimen270
 ) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count301
-\float@exts=\toks44
-\float@box=\box64
-\@float@everytoks=\toks45
-\@floatcapt=\box65
+\c@float@type=\count293
+\float@exts=\toks43
+\float@box=\box62
+\@float@everytoks=\toks44
+\@floatcapt=\box63
+) (/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip58
+\cftbeforetoctitleskip=\skip59
+\cftaftertoctitleskip=\skip60
+\cftbeforepartskip=\skip61
+\cftpartnumwidth=\skip62
+\cftpartindent=\skip63
+\cftbeforechapskip=\skip64
+\cftchapindent=\skip65
+\cftchapnumwidth=\skip66
+\cftbeforesecskip=\skip67
+\cftsecindent=\skip68
+\cftsecnumwidth=\skip69
+\cftbeforesubsecskip=\skip70
+\cftsubsecindent=\skip71
+\cftsubsecnumwidth=\skip72
+\cftbeforesubsubsecskip=\skip73
+\cftsubsubsecindent=\skip74
+\cftsubsubsecnumwidth=\skip75
+\cftbeforeparaskip=\skip76
+\cftparaindent=\skip77
+\cftparanumwidth=\skip78
+\cftbeforesubparaskip=\skip79
+\cftsubparaindent=\skip80
+\cftsubparanumwidth=\skip81
+\cftbeforeloftitleskip=\skip82
+\cftafterloftitleskip=\skip83
+\cftbeforefigskip=\skip84
+\cftfigindent=\skip85
+\cftfignumwidth=\skip86
+\c@lofdepth=\count294
+\c@lotdepth=\count295
+\cftbeforelottitleskip=\skip87
+\cftafterlottitleskip=\skip88
+\cftbeforetabskip=\skip89
+\cfttabindent=\skip90
+\cfttabnumwidth=\skip91
 ) (/usr/share/texlive/texmf-dist/tex/latex/standalone/standalone.sty
 Package: standalone 2018/03/26 v1.3a Package to include TeX sub-files with preambles
  (/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
@@ -446,10 +441,10 @@ Package shellesc Info: Restricted shell escape enabled on input line 77.
 ) (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
  (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks46
-\XKV@tempa@toks=\toks47
+\XKV@toks=\toks45
+\XKV@tempa@toks=\toks46
 )
-\XKV@depth=\count302
+\XKV@depth=\count296
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (/usr/share/texlive/texmf-dist/tex/latex/currfile/currfile.sty
 Package: currfile 2020/09/29 v0.7d Provides the file path elements of the current input file
@@ -464,7 +459,7 @@ Package: filehook 2020/09/29 v0.8a Hooks for input files
  (/usr/share/texlive/texmf-dist/tex/latex/filehook/filehook-2020.sty
 Package: filehook-2020 2020/09/29 v0.8a Hooks for input files
 ))
-\c@currfiledepth=\count303
+\c@currfiledepth=\count297
 ) (/usr/share/texlive/texmf-dist/tex/latex/gincltex/gincltex.sty (/usr/share/texlive/texmf-dist/tex/latex/svn-prov/svn-prov.sty
 Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
 )
@@ -473,39 +468,40 @@ Package: gincltex 2011/09/04 v0.3 Include external LaTeX files like graphics
 Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
  (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
-) (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
 Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
  (/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box66
+\collectedbox=\box64
 )
-\tc@llx=\dimen275
-\tc@lly=\dimen276
-\tc@urx=\dimen277
-\tc@ury=\dimen278
+\tc@llx=\dimen271
+\tc@lly=\dimen272
+\tc@urx=\dimen273
+\tc@ury=\dimen274
 Package trimclip Info: Using driver 'tc-pdftex.def'.
  (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen279
-\adjbox@Height=\dimen280
-\adjbox@Depth=\dimen281
-\adjbox@Totalheight=\dimen282
-\adjbox@pwidth=\dimen283
-\adjbox@pheight=\dimen284
-\adjbox@pdepth=\dimen285
-\adjbox@ptotalheight=\dimen286
+\adjbox@Width=\dimen275
+\adjbox@Height=\dimen276
+\adjbox@Depth=\dimen277
+\adjbox@Totalheight=\dimen278
+\adjbox@pwidth=\dimen279
+\adjbox@pheight=\dimen280
+\adjbox@pdepth=\dimen281
+\adjbox@ptotalheight=\dimen282
  (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count304
+\c@checkoddpage=\count298
 ) (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box67
-\sift@deathcycles=\count305
-\@vwid@loff=\dimen287
-\@vwid@roff=\dimen288
+\@vwid@box=\box65
+\sift@deathcycles=\count299
+\@vwid@loff=\dimen283
+\@vwid@roff=\dimen284
 ))
-\gincltex@box=\box68
+\gincltex@box=\box66
 ) (/usr/share/texlive/texmf-dist/tex/latex/filemod/filemod-expmin.sty
 Package: filemod-expmin 2011/09/19 v1.2 Get and compare file modification times (expandable; minimal)
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.code.tex
@@ -530,35 +526,36 @@ File: pgflibraryshapes.arrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 File: tikzlibraryshapes.multipart.code.tex 2020/12/27 v3.1.8b (3.1.8b)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfnodepartlowerbox=\box69
-\pgfnodeparttwobox=\box70
-\pgfnodepartthreebox=\box71
-\pgfnodepartfourbox=\box72
-\pgfnodeparttwentybox=\box73
-\pgfnodepartnineteenbox=\box74
-\pgfnodeparteighteenbox=\box75
-\pgfnodepartseventeenbox=\box76
-\pgfnodepartsixteenbox=\box77
-\pgfnodepartfifteenbox=\box78
-\pgfnodepartfourteenbox=\box79
-\pgfnodepartthirteenbox=\box80
-\pgfnodeparttwelvebox=\box81
-\pgfnodepartelevenbox=\box82
-\pgfnodeparttenbox=\box83
-\pgfnodepartninebox=\box84
-\pgfnodeparteightbox=\box85
-\pgfnodepartsevenbox=\box86
-\pgfnodepartsixbox=\box87
-\pgfnodepartfivebox=\box88
+\pgfnodepartlowerbox=\box67
+\pgfnodeparttwobox=\box68
+\pgfnodepartthreebox=\box69
+\pgfnodepartfourbox=\box70
+\pgfnodeparttwentybox=\box71
+\pgfnodepartnineteenbox=\box72
+\pgfnodeparteighteenbox=\box73
+\pgfnodepartseventeenbox=\box74
+\pgfnodepartsixteenbox=\box75
+\pgfnodepartfifteenbox=\box76
+\pgfnodepartfourteenbox=\box77
+\pgfnodepartthirteenbox=\box78
+\pgfnodeparttwelvebox=\box79
+\pgfnodepartelevenbox=\box80
+\pgfnodeparttenbox=\box81
+\pgfnodepartninebox=\box82
+\pgfnodeparteightbox=\box83
+\pgfnodepartsevenbox=\box84
+\pgfnodepartsixbox=\box85
+\pgfnodepartfivebox=\box86
 ))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-) (/usr/share/texlive/texmf-dist/tex/latex/mdframed/mdframed.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mdframed/mdframed.sty
 Package: mdframed 2013/07/01 1.9b: mdframed
  (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count306
+\etb@tempcnta=\count300
 ) (/usr/share/texlive/texmf-dist/tex/latex/zref/zref-abspage.sty
 Package: zref-abspage 2020-07-03 v2.32 Module abspage for zref (HO)
  (/usr/share/texlive/texmf-dist/tex/latex/zref/zref-base.sty
@@ -584,107 +581,106 @@ Package zref Info: New property: page on input line 766.
 Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi package
 with kernel methods
 )
-\c@abspage=\count307
+\c@abspage=\count301
 Package zref Info: New property: abspage on input line 66.
 ) (/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
-\mdf@templength=\skip58
-\c@mdf@globalstyle@cnt=\count308
-\mdf@skipabove@length=\skip59
-\mdf@skipbelow@length=\skip60
-\mdf@leftmargin@length=\skip61
-\mdf@rightmargin@length=\skip62
-\mdf@innerleftmargin@length=\skip63
-\mdf@innerrightmargin@length=\skip64
-\mdf@innertopmargin@length=\skip65
-\mdf@innerbottommargin@length=\skip66
-\mdf@splittopskip@length=\skip67
-\mdf@splitbottomskip@length=\skip68
-\mdf@outermargin@length=\skip69
-\mdf@innermargin@length=\skip70
-\mdf@linewidth@length=\skip71
-\mdf@innerlinewidth@length=\skip72
-\mdf@middlelinewidth@length=\skip73
-\mdf@outerlinewidth@length=\skip74
-\mdf@roundcorner@length=\skip75
-\mdf@footenotedistance@length=\skip76
-\mdf@userdefinedwidth@length=\skip77
-\mdf@needspace@length=\skip78
-\mdf@frametitleaboveskip@length=\skip79
-\mdf@frametitlebelowskip@length=\skip80
-\mdf@frametitlerulewidth@length=\skip81
-\mdf@frametitleleftmargin@length=\skip82
-\mdf@frametitlerightmargin@length=\skip83
-\mdf@shadowsize@length=\skip84
-\mdf@extratopheight@length=\skip85
-\mdf@subtitleabovelinewidth@length=\skip86
-\mdf@subtitlebelowlinewidth@length=\skip87
-\mdf@subtitleaboveskip@length=\skip88
-\mdf@subtitlebelowskip@length=\skip89
-\mdf@subtitleinneraboveskip@length=\skip90
-\mdf@subtitleinnerbelowskip@length=\skip91
-\mdf@subsubtitleabovelinewidth@length=\skip92
-\mdf@subsubtitlebelowlinewidth@length=\skip93
-\mdf@subsubtitleaboveskip@length=\skip94
-\mdf@subsubtitlebelowskip@length=\skip95
-\mdf@subsubtitleinneraboveskip@length=\skip96
-\mdf@subsubtitleinnerbelowskip@length=\skip97
-
-(/usr/share/texlive/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
+\mdf@templength=\skip92
+\c@mdf@globalstyle@cnt=\count302
+\mdf@skipabove@length=\skip93
+\mdf@skipbelow@length=\skip94
+\mdf@leftmargin@length=\skip95
+\mdf@rightmargin@length=\skip96
+\mdf@innerleftmargin@length=\skip97
+\mdf@innerrightmargin@length=\skip98
+\mdf@innertopmargin@length=\skip99
+\mdf@innerbottommargin@length=\skip100
+\mdf@splittopskip@length=\skip101
+\mdf@splitbottomskip@length=\skip102
+\mdf@outermargin@length=\skip103
+\mdf@innermargin@length=\skip104
+\mdf@linewidth@length=\skip105
+\mdf@innerlinewidth@length=\skip106
+\mdf@middlelinewidth@length=\skip107
+\mdf@outerlinewidth@length=\skip108
+\mdf@roundcorner@length=\skip109
+\mdf@footenotedistance@length=\skip110
+\mdf@userdefinedwidth@length=\skip111
+\mdf@needspace@length=\skip112
+\mdf@frametitleaboveskip@length=\skip113
+\mdf@frametitlebelowskip@length=\skip114
+\mdf@frametitlerulewidth@length=\skip115
+\mdf@frametitleleftmargin@length=\skip116
+\mdf@frametitlerightmargin@length=\skip117
+\mdf@shadowsize@length=\skip118
+\mdf@extratopheight@length=\skip119
+\mdf@subtitleabovelinewidth@length=\skip120
+\mdf@subtitlebelowlinewidth@length=\skip121
+\mdf@subtitleaboveskip@length=\skip122
+\mdf@subtitlebelowskip@length=\skip123
+\mdf@subtitleinneraboveskip@length=\skip124
+\mdf@subtitleinnerbelowskip@length=\skip125
+\mdf@subsubtitleabovelinewidth@length=\skip126
+\mdf@subsubtitlebelowlinewidth@length=\skip127
+\mdf@subsubtitleaboveskip@length=\skip128
+\mdf@subsubtitlebelowskip@length=\skip129
+\mdf@subsubtitleinneraboveskip@length=\skip130
+\mdf@subsubtitleinnerbelowskip@length=\skip131
+ (/usr/share/texlive/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
 File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 )
-\mdf@frametitlebox=\box89
-\mdf@footnotebox=\box90
-\mdf@splitbox@one=\box91
-\mdf@splitbox@two=\box92
-\mdf@splitbox@save=\box93
-\mdfsplitboxwidth=\skip98
-\mdfsplitboxtotalwidth=\skip99
-\mdfsplitboxheight=\skip100
-\mdfsplitboxdepth=\skip101
-\mdfsplitboxtotalheight=\skip102
-\mdfframetitleboxwidth=\skip103
-\mdfframetitleboxtotalwidth=\skip104
-\mdfframetitleboxheight=\skip105
-\mdfframetitleboxdepth=\skip106
-\mdfframetitleboxtotalheight=\skip107
-\mdffootnoteboxwidth=\skip108
-\mdffootnoteboxtotalwidth=\skip109
-\mdffootnoteboxheight=\skip110
-\mdffootnoteboxdepth=\skip111
-\mdffootnoteboxtotalheight=\skip112
-\mdftotallinewidth=\skip113
-\mdfboundingboxwidth=\skip114
-\mdfboundingboxtotalwidth=\skip115
-\mdfboundingboxheight=\skip116
-\mdfboundingboxdepth=\skip117
-\mdfboundingboxtotalheight=\skip118
-\mdf@freevspace@length=\skip119
-\mdf@horizontalwidthofbox@length=\skip120
-\mdf@verticalmarginwhole@length=\skip121
-\mdf@horizontalspaceofbox=\skip122
-\mdfsubtitleheight=\skip123
-\mdfsubsubtitleheight=\skip124
-\c@mdfcountframes=\count309
+\mdf@frametitlebox=\box87
+\mdf@footnotebox=\box88
+\mdf@splitbox@one=\box89
+\mdf@splitbox@two=\box90
+\mdf@splitbox@save=\box91
+\mdfsplitboxwidth=\skip132
+\mdfsplitboxtotalwidth=\skip133
+\mdfsplitboxheight=\skip134
+\mdfsplitboxdepth=\skip135
+\mdfsplitboxtotalheight=\skip136
+\mdfframetitleboxwidth=\skip137
+\mdfframetitleboxtotalwidth=\skip138
+\mdfframetitleboxheight=\skip139
+\mdfframetitleboxdepth=\skip140
+\mdfframetitleboxtotalheight=\skip141
+\mdffootnoteboxwidth=\skip142
+\mdffootnoteboxtotalwidth=\skip143
+\mdffootnoteboxheight=\skip144
+\mdffootnoteboxdepth=\skip145
+\mdffootnoteboxtotalheight=\skip146
+\mdftotallinewidth=\skip147
+\mdfboundingboxwidth=\skip148
+\mdfboundingboxtotalwidth=\skip149
+\mdfboundingboxheight=\skip150
+\mdfboundingboxdepth=\skip151
+\mdfboundingboxtotalheight=\skip152
+\mdf@freevspace@length=\skip153
+\mdf@horizontalwidthofbox@length=\skip154
+\mdf@verticalmarginwhole@length=\skip155
+\mdf@horizontalspaceofbox=\skip156
+\mdfsubtitleheight=\skip157
+\mdfsubsubtitleheight=\skip158
+\c@mdfcountframes=\count303
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count310
-\c@mdf@env@i=\count311
-\c@mdf@env@ii=\count312
-\c@mdf@zref@counter=\count313
+\mdf@envdepth=\count304
+\c@mdf@env@i=\count305
+\c@mdf@env@ii=\count306
+\c@mdf@zref@counter=\count307
 Package zref Info: New property: mdf@pagevalue on input line 895.
 ) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip125
-\enit@outerparindent=\dimen289
-\enit@toks=\toks48
-\enit@inbox=\box94
-\enit@count@id=\count314
-\enitdp@description=\count315
+\labelindent=\skip159
+\enit@outerparindent=\dimen285
+\enit@toks=\toks47
+\enit@inbox=\box92
+\enit@count@id=\count308
+\enitdp@description=\count309
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -696,9 +692,9 @@ Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 ) (/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-\@linkdim=\dimen290
-\Hy@linkcounter=\count316
-\Hy@pagecounter=\count317
+\@linkdim=\dimen286
+\Hy@linkcounter=\count310
+\Hy@pagecounter=\count311
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -706,7 +702,7 @@ Now handling font encoding PD1 ...
 ) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count318
+\Hy@SavedSpaceFactor=\count312
 Package hyperref Info: Hyper figures OFF on input line 4464.
 Package hyperref Info: Link nesting OFF on input line 4469.
 Package hyperref Info: Hyper index ON on input line 4472.
@@ -714,21 +710,21 @@ Package hyperref Info: Plain pages OFF on input line 4479.
 Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count319
+\c@Hy@tempcnt=\count313
  (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5076.
-\XeTeXLinkMargin=\dimen291
+\XeTeXLinkMargin=\dimen287
  (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count320
-\Field@Width=\dimen292
-\Fld@charsize=\dimen293
+\Fld@menulength=\count314
+\Field@Width=\dimen288
+\Fld@charsize=\dimen289
 Package hyperref Info: Hyper figures OFF on input line 6347.
 Package hyperref Info: Link nesting OFF on input line 6352.
 Package hyperref Info: Hyper index ON on input line 6355.
@@ -738,9 +734,9 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6372.
 Package hyperref Info: PDF/A mode OFF on input line 6377.
 LaTeX Info: Redefining \ref on input line 6417.
 LaTeX Info: Redefining \pageref on input line 6421.
-\Hy@abspage=\count321
-\c@Item=\count322
-\c@Hfootnote=\count323
+\Hy@abspage=\count315
+\c@Item=\count316
+\c@Hfootnote=\count317
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
@@ -749,9 +745,9 @@ File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery package
 with kernel methods
 )
-\HyAnn@Count=\count324
-\Fld@listcount=\count325
-\c@bookmark@seq@number=\count326
+\HyAnn@Count=\count318
+\Fld@listcount=\count319
+\c@bookmark@seq@number=\count320
  (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -759,48 +755,48 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
-\Hy@SectionHShift=\skip126
+\Hy@SectionHShift=\skip160
 ) (/usr/share/texlive/texmf-dist/tex/latex/scalerel/scalerel.sty
 Package: scalerel 2016/12/29 v1.8 Routines for constrained scaling and stretching of objects, relative to a reference object or in absolute terms
  (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count327
-\calc@Bcount=\count328
-\calc@Adimen=\dimen294
-\calc@Bdimen=\dimen295
-\calc@Askip=\skip127
-\calc@Bskip=\skip128
+\calc@Acount=\count321
+\calc@Bcount=\count322
+\calc@Adimen=\dimen290
+\calc@Bdimen=\dimen291
+\calc@Askip=\skip161
+\calc@Bskip=\skip162
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count329
-\calc@Cskip=\skip129
+\calc@Ccount=\count323
+\calc@Cskip=\skip163
 )
-\thesrwidth=\skip130
-\thesrheight=\skip131
-\srblobheight=\skip132
-\srblobdepth=\skip133
-\mnxsrwidth=\skip134
-\LMex=\skip135
-\LMpt=\skip136
+\thesrwidth=\skip164
+\thesrheight=\skip165
+\srblobheight=\skip166
+\srblobdepth=\skip167
+\mnxsrwidth=\skip168
+\LMex=\skip169
+\LMpt=\skip170
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -838,25 +834,24 @@ LaTeX Font Info:    ... okay on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count330
-\scratchdimen=\dimen296
-\scratchbox=\box95
-\nofMPsegments=\count331
-\nofMParguments=\count332
-\everyMPshowfont=\toks49
-\MPscratchCnt=\count333
-\MPscratchDim=\dimen297
-\MPnumerator=\count334
-\makeMPintoPDFobject=\count335
-\everyMPtoPDFconversion=\toks50
+\scratchcounter=\count324
+\scratchdimen=\dimen292
+\scratchbox=\box93
+\nofMPsegments=\count325
+\nofMParguments=\count326
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count327
+\MPscratchDim=\dimen293
+\MPnumerator=\count328
+\makeMPintoPDFobject=\count329
+\everyMPtoPDFconversion=\toks49
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-\c@lstlisting=\count336
-Package hyperref Info: Link coloring OFF on input line 61.
+Package hyperref Info: Link coloring OFF on input line 63.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -864,37 +859,37 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count337
+\c@section@level=\count330
 )
-LaTeX Info: Redefining \ref on input line 61.
-LaTeX Info: Redefining \pageref on input line 61.
-LaTeX Info: Redefining \nameref on input line 61.
+LaTeX Info: Redefining \ref on input line 63.
+LaTeX Info: Redefining \pageref on input line 63.
+LaTeX Info: Redefining \nameref on input line 63.
  (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 68.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 70.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 68.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 70.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-./main.tex:68: Missing { inserted.
+./main.tex:70: Missing { inserted.
 <to be read again> 
                    $
-l.68 ...� Carlos Almeida de Lima\hfill Data: $07^$
+l.70 ...� Carlos Almeida de Lima\hfill Data: $07^$
                                                    de Setembro de 2021 \\
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-./main.tex:68: Missing } inserted.
+./main.tex:70: Missing } inserted.
 <inserted text> 
                 }
-l.68 ...� Carlos Almeida de Lima\hfill Data: $07^$
+l.70 ...� Carlos Almeida de Lima\hfill Data: $07^$
                                                    de Setembro de 2021 \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -902,144 +897,140 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-Chapter 1.
-Package mdframed Info: mdframed works in twoside mode on input line 76.
+Cap\'{\i }tulo 1.
+Package mdframed Info: mdframed works in twoside mode on input line 78.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 76.
-<imagens/1_1_3.png, id=44, 677.53125pt x 179.67125pt>
+(mdframed)              on input line 78.
+<imagens/1_1_3.png, id=48, 677.53125pt x 179.67125pt>
 File: imagens/1_1_3.png Graphic file (type png)
 <use imagens/1_1_3.png>
-Package pdftex.def Info: imagens/1_1_3.png  used on input line 86.
+Package pdftex.def Info: imagens/1_1_3.png  used on input line 88.
 (pdftex.def)             Requested size: 338.76479pt x 89.83539pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 115.
+Package mdframed Info: mdframed works in twoside mode on input line 117.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 115.
+(mdframed)              on input line 117.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./imagens/1_1_3.png>]
-Overfull \hbox (6.37192pt too wide) in paragraph at lines 124--125
-[]\OT1/cmr/m/n/10.95 Chamaremos de $\OML/cmm/m/it/10.95 c[]$ \OT1/cmr/m/n/10.95 e $\OML/cmm/m/it/10.95 c[]$ \OT1/cmr/m/n/10.95 as circunfer^encias que possuem como centro o ponto \OT1/cmr/m/it/10.95 A \OT1/cmr/m/n/10.95 e raios respectivamentes
- []
-
-<imagens/1_1_5.png, id=64, 945.5325pt x 607.26875pt>
+<imagens/1_1_5.png, id=68, 945.5325pt x 607.26875pt>
 File: imagens/1_1_5.png Graphic file (type png)
 <use imagens/1_1_5.png>
-Package pdftex.def Info: imagens/1_1_5.png  used on input line 132.
+Package pdftex.def Info: imagens/1_1_5.png  used on input line 134.
 (pdftex.def)             Requested size: 472.76509pt x 303.63364pt.
-Package mdframed Info: mdframed works in twoside mode on input line 142.
+Package mdframed Info: mdframed works in twoside mode on input line 144.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 142.
-Package mdframed Info: Not enough space on this page on input line 146.
-[2 <./imagens/1_1_5.png>]
-Package mdframed Info: Not enough space on this page on input line 146.
+(mdframed)              on input line 144.
+Package mdframed Info: Not enough space on this page on input line 148.
+ [2 <./imagens/1_1_5.png>]
+Package mdframed Info: Not enough space on this page on input line 148.
 
-./main.tex:149: Missing $ inserted.
+./main.tex:151: Missing $ inserted.
 <inserted text> 
                 $
-l.149 ...t{X} é convexo, então $\forall A,B$ \in
+l.151 ...t{X} é convexo, então $\forall A,B$ \in
                                                    \textit{X} $\implies$ $\o...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./main.tex:149: Missing $ inserted.
+./main.tex:151: Missing $ inserted.
 <inserted text> 
                 $
-l.149 ...�o $\forall A,B$ \in \textit{X} $\implies
+l.151 ...�o $\forall A,B$ \in \textit{X} $\implies
                                                   $ $\overline{AB}$ $\subset...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./main.tex:150: Missing $ inserted.
+./main.tex:152: Missing $ inserted.
 <inserted text> 
                 $
-l.150 ...t{Y} é convexo, então $\forall A,B$ \in
+l.152 ...t{Y} é convexo, então $\forall A,B$ \in
                                                    \textit{Y} $\implies$ $\o...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./main.tex:150: Missing $ inserted.
+./main.tex:152: Missing $ inserted.
 <inserted text> 
                 $
-l.150 ...�o $\forall A,B$ \in \textit{Y} $\implies
+l.152 ...�o $\forall A,B$ \in \textit{Y} $\implies
                                                   $ $\overline{AB}$ $\subset...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--152
+Underfull \hbox (badness 10000) in paragraph at lines 149--154
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--152
+Underfull \hbox (badness 10000) in paragraph at lines 149--154
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 156.
+Package mdframed Info: mdframed works in twoside mode on input line 158.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 156.
+(mdframed)              on input line 158.
 
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 180--184
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 182--186
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--184
+Underfull \hbox (badness 10000) in paragraph at lines 182--186
 
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 185.
+Package mdframed Info: mdframed works in twoside mode on input line 187.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 185.
-./main.tex:213: Missing $ inserted.
+(mdframed)              on input line 187.
+./main.tex:215: Missing $ inserted.
 <inserted text> 
                 $
-l.213     Substituindo \alpha
+l.215     Substituindo \alpha
                               na equação 1, encontramos:
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-LaTeX Warning: Command \c invalid in math mode on input line 213.
+LaTeX Warning: Command \c invalid in math mode on input line 215.
 
-./main.tex:213: Please use \mathaccent for accents in math mode.
+./main.tex:215: Please use \mathaccent for accents in math mode.
 <recently read> \accent 
                         
-l.213     Substituindo \alpha na equaç
+l.215     Substituindo \alpha na equaç
                                        ão 1, encontramos:
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
 
-LaTeX Warning: Command \~ invalid in math mode on input line 213.
+LaTeX Warning: Command \~ invalid in math mode on input line 215.
 
-./main.tex:213: Please use \mathaccent for accents in math mode.
+./main.tex:215: Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \spacefactor ...
-l.213     Substituindo \alpha na equaçã
+l.215     Substituindo \alpha na equaçã
                                          o 1, encontramos:
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
-./main.tex:213: You can't use `\spacefactor' in math mode.
+./main.tex:215: You can't use `\spacefactor' in math mode.
 \add@accent ... \accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.213     Substituindo \alpha na equaçã
+l.215     Substituindo \alpha na equaçã
                                          o 1, encontramos:
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1047,22 +1038,22 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-./main.tex:214: LaTeX Error: Bad math environment delimiter.
+./main.tex:216: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.214     \[
+l.216     \[
             
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./main.tex:216: Missing \endgroup inserted.
+./main.tex:218: Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.216     .\]
+l.218     .\]
              
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1071,10 +1062,10 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 Missing character: There is no � in font cmex10!
-./main.tex:216: Extra }, or forgotten \endgroup.
+./main.tex:218: Extra }, or forgotten \endgroup.
 \endmathdisplay@fleqn ...kip \@mathmargin \egroup 
                                                   \ifnum \badness <\inf@bad ...
-l.216     .\]
+l.218     .\]
              
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1083,27 +1074,27 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-Overfull \hbox (4.86667pt too wide) detected at line 216
+Overfull \hbox (4.86667pt too wide) detected at line 218
  \OT1/cmr/m/n/10.95 c
  []
 
 
-./main.tex:216: LaTeX Error: \begin{solution} on input line 190 ended by \end{equation*}.
+./main.tex:218: LaTeX Error: \begin{solution} on input line 192 ended by \end{equation*}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.216     .\]
+l.218     .\]
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./main.tex:216: Missing $ inserted.
+./main.tex:218: Missing $ inserted.
 <inserted text> 
                 $
-l.216     .\]
+l.218     .\]
              
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1111,120 +1102,115 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./main.tex:216: Display math should end with $$.
+./main.tex:218: Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.216     .\]
+l.218     .\]
              
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
 [3]
-Package mdframed Info: mdframed works in twoside mode on input line 223.
+Package mdframed Info: mdframed works in twoside mode on input line 225.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 223.
+(mdframed)              on input line 225.
 
-Chapter 2.
+Cap\'{\i }tulo 2.
 [4]
-Package mdframed Info: mdframed works in twoside mode on input line 261.
+Package mdframed Info: mdframed works in twoside mode on input line 263.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 261.
-<imagens/2_2_1.png, id=92, 733.74126pt x 342.27875pt>
+(mdframed)              on input line 263.
+<imagens/2_2_1.png, id=96, 733.74126pt x 342.27875pt>
 File: imagens/2_2_1.png Graphic file (type png)
 <use imagens/2_2_1.png>
-Package pdftex.def Info: imagens/2_2_1.png  used on input line 267.
+Package pdftex.def Info: imagens/2_2_1.png  used on input line 269.
 (pdftex.def)             Requested size: 366.86974pt x 171.13895pt.
-<imagens/2_2_1r.png, id=94, 826.08624pt x 414.54875pt>
+<imagens/2_2_1r.png, id=98, 826.08624pt x 414.54875pt>
 File: imagens/2_2_1r.png Graphic file (type png)
 <use imagens/2_2_1r.png>
-Package pdftex.def Info: imagens/2_2_1r.png  used on input line 284.
+Package pdftex.def Info: imagens/2_2_1r.png  used on input line 286.
 (pdftex.def)             Requested size: 413.0421pt x 207.27386pt.
  [5 <./imagens/2_2_1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
 
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 291.
+Package mdframed Info: mdframed works in twoside mode on input line 293.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 291.
-<imagens/2_2_2.png, id=109, 733.74126pt x 342.27875pt>
+(mdframed)              on input line 293.
+<imagens/2_2_2.png, id=113, 733.74126pt x 342.27875pt>
 File: imagens/2_2_2.png Graphic file (type png)
 <use imagens/2_2_2.png>
-Package pdftex.def Info: imagens/2_2_2.png  used on input line 297.
+Package pdftex.def Info: imagens/2_2_2.png  used on input line 299.
 (pdftex.def)             Requested size: 366.86974pt x 171.13895pt.
-<imagens/2_2_2r.png, id=111, 764.8575pt x 377.41pt>
+<imagens/2_2_2r.png, id=115, 764.8575pt x 377.41pt>
 File: imagens/2_2_2r.png Graphic file (type png)
 <use imagens/2_2_2r.png>
-Package pdftex.def Info: imagens/2_2_2r.png  used on input line 315.
+Package pdftex.def Info: imagens/2_2_2r.png  used on input line 317.
 (pdftex.def)             Requested size: 305.93758pt x 150.96132pt.
 [6 <./imagens/2_2_1r.png> <./imagens/2_2_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
+Underfull \hbox (badness 10000) in paragraph at lines 322--323
 
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 323.
+Package mdframed Info: mdframed works in twoside mode on input line 325.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 323.
-
-Overfull \hbox (13.83018pt too wide) in paragraph at lines 337--338
-[]\OT1/cmr/m/n/10.95 Tra^^Xcamos duas circunfer^encias de raio igual a \OT1/cmr/m/it/10.95 c \OT1/cmr/m/n/10.95 de centros em \OT1/cmr/m/it/10.95 A \OT1/cmr/m/n/10.95 e $\OML/cmm/m/it/10.95 A[]$\OT1/cmr/m/n/10.95 , o qual chamaremos respectivamente
- []
-
-<imagens/2_2_6.png, id=127, 668.4975pt x 426.59375pt>
+(mdframed)              on input line 325.
+<imagens/2_2_6.png, id=131, 668.4975pt x 426.59375pt>
 File: imagens/2_2_6.png Graphic file (type png)
 <use imagens/2_2_6.png>
-Package pdftex.def Info: imagens/2_2_6.png  used on input line 348.
+Package pdftex.def Info: imagens/2_2_6.png  used on input line 350.
 (pdftex.def)             Requested size: 334.24792pt x 213.29634pt.
 [7 <./imagens/2_2_2r.png>]
 Runaway argument?
 {2.8pt/\\ 
-./main.tex:356: Paragraph ended before \@rule was complete.
+./main.tex:358: Paragraph ended before \@rule was complete.
 <to be read again> 
                    \par 
-l.356 
+l.358 
       
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
-Package mdframed Info: mdframed works in twoside mode on input line 357.
+Package mdframed Info: mdframed works in twoside mode on input line 359.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 357.
+(mdframed)              on input line 359.
 
-./main.tex:363: LaTeX Error: Environment soluton undefined.
+./main.tex:365: LaTeX Error: Environment soluton undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.363 \begin{soluton}
+l.365 \begin{soluton}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<imagens/2_2_8.png, id=149, 427.5975pt x 389.455pt>
+<imagens/2_2_8.png, id=153, 427.5975pt x 389.455pt>
 File: imagens/2_2_8.png Graphic file (type png)
 <use imagens/2_2_8.png>
-Package pdftex.def Info: imagens/2_2_8.png  used on input line 367.
+Package pdftex.def Info: imagens/2_2_8.png  used on input line 369.
 (pdftex.def)             Requested size: 213.79822pt x 194.72702pt.
-./main.tex:380: Missing $ inserted.
+./main.tex:382: Missing $ inserted.
 <inserted text> 
                 $
-l.380 \mbox{  \Delta ACM \equiv \Delta BCM}
+l.382 \mbox{  \Delta ACM \equiv \Delta BCM}
                                            
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./main.tex:380: Extra }, or forgotten $.
+./main.tex:382: Extra }, or forgotten $.
 \mbox  #1->\leavevmode \hbox {#1}
                                  
-l.380 \mbox{  \Delta ACM \equiv \Delta BCM}
+l.382 \mbox{  \Delta ACM \equiv \Delta BCM}
                                            
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1233,14 +1219,14 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-Underfull \hbox (badness 10000) detected at line 381
+Underfull \hbox (badness 10000) detected at line 383
  \OT1/cmr/m/n/10.95 c
  []
 
-./main.tex:381: Missing $ inserted.
+./main.tex:383: Missing $ inserted.
 <inserted text> 
                 $
-l.381     \]
+l.383     \]
             
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1248,10 +1234,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./main.tex:381: Missing } inserted.
+./main.tex:383: Missing } inserted.
 <inserted text> 
                 }
-l.381     \]
+l.383     \]
             
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1259,10 +1245,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./main.tex:381: Missing $ inserted.
+./main.tex:383: Missing $ inserted.
 <inserted text> 
                 $
-l.381     \]
+l.383     \]
             
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1270,139 +1256,134 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./main.tex:381: Display math should end with $$.
+./main.tex:383: Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.381     \]
+l.383     \]
             
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
 [8 <./imagens/2_2_6.png> <./imagens/2_2_8.png>]
 
-./main.tex:396: LaTeX Error: \begin{document} ended by \end{soluton}.
+./main.tex:398: LaTeX Error: \begin{document} ended by \end{soluton}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.396 \end{soluton}
+l.398 \end{soluton}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--399
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
 
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 401.
+Package mdframed Info: mdframed works in twoside mode on input line 403.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 401.
+(mdframed)              on input line 403.
 
-LaTeX Warning: Reference `sec:28' on page 9 undefined on input line 414.
+LaTeX Warning: Reference `sec:28' on page 9 undefined on input line 416.
 
-<imagens/2_2_10_1.png, id=161, 723.70375pt x 671.50874pt>
+<imagens/2_2_10_1.png, id=165, 723.70375pt x 671.50874pt>
 File: imagens/2_2_10_1.png Graphic file (type png)
 <use imagens/2_2_10_1.png>
-Package pdftex.def Info: imagens/2_2_10_1.png  used on input line 417.
+Package pdftex.def Info: imagens/2_2_10_1.png  used on input line 419.
 (pdftex.def)             Requested size: 289.47636pt x 268.59874pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--420
+Underfull \hbox (badness 10000) in paragraph at lines 415--422
 
  []
 
-<imagens/2_2_10_2.png, id=164, 822.07124pt x 752.8125pt>
+<imagens/2_2_10_2.png, id=168, 822.07124pt x 752.8125pt>
 File: imagens/2_2_10_2.png Graphic file (type png)
 <use imagens/2_2_10_2.png>
-Package pdftex.def Info: imagens/2_2_10_2.png  used on input line 425.
+Package pdftex.def Info: imagens/2_2_10_2.png  used on input line 427.
 (pdftex.def)             Requested size: 328.82266pt x 301.11966pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--428
+Underfull \hbox (badness 10000) in paragraph at lines 423--430
 
  []
 
 [9 <./imagens/2_2_10_1.png>]
-Package mdframed Info: mdframed works in twoside mode on input line 440.
+Package mdframed Info: mdframed works in twoside mode on input line 442.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 440.
-<imagens/2_3_2.png, id=177, 511.9125pt x 469.755pt>
+(mdframed)              on input line 442.
+<imagens/2_3_2.png, id=181, 511.9125pt x 469.755pt>
 File: imagens/2_3_2.png Graphic file (type png)
 <use imagens/2_3_2.png>
-Package pdftex.def Info: imagens/2_3_2.png  used on input line 449.
+Package pdftex.def Info: imagens/2_3_2.png  used on input line 451.
 (pdftex.def)             Requested size: 255.95563pt x 234.87692pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10 <./imagens/2_2_10_2.png>]
-Overfull \hbox (115.56833pt too wide) in paragraph at lines 473--477
-\OT1/cmr/m/n/10.95 e portanto, $[] = []$.  [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--477
+Underfull \hbox (badness 10000) in paragraph at lines 479--480
 
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 478.
+Package mdframed Info: mdframed works in twoside mode on input line 481.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 478.
-<imagens/2_3_6.png, id=185, 691.58376pt x 363.3575pt>
+(mdframed)              on input line 481.
+<imagens/2_3_6.png, id=189, 691.58376pt x 363.3575pt>
 File: imagens/2_3_6.png Graphic file (type png)
 <use imagens/2_3_6.png>
-Package pdftex.def Info: imagens/2_3_6.png  used on input line 484.
+Package pdftex.def Info: imagens/2_3_6.png  used on input line 487.
 (pdftex.def)             Requested size: 242.05794pt x 127.17702pt.
-<imagens/2_3_6r.png, id=187, 1017.8025pt x 497.86pt>
+<imagens/2_3_6r.png, id=191, 1017.8025pt x 497.86pt>
 File: imagens/2_3_6r.png Graphic file (type png)
 <use imagens/2_3_6r.png>
-Package pdftex.def Info: imagens/2_3_6r.png  used on input line 494.
+Package pdftex.def Info: imagens/2_3_6r.png  used on input line 497.
 (pdftex.def)             Requested size: 356.23622pt x 174.2536pt.
 [11 <./imagens/2_3_2.png> <./imagens/2_3_6.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 501--502
+Underfull \hbox (badness 10000) in paragraph at lines 504--505
 
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 503.
+Package mdframed Info: mdframed works in twoside mode on input line 506.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 503.
+(mdframed)              on input line 506.
 
-./main.tex:516: LaTeX Error: Something's wrong--perhaps a missing \item.
+./main.tex:519: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.516     \begin{enumerate}[(a)]
+l.519     \begin{enumerate}[(a)]
                                 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 536--538
+Underfull \hbox (badness 10000) in paragraph at lines 539--541
 
  []
 
 [12 <./imagens/2_3_6r.png>]
 
-LaTeX Warning: Command \^ invalid in math mode on input line 551.
+LaTeX Warning: Command \^ invalid in math mode on input line 554.
 
-./main.tex:551: Please use \mathaccent for accents in math mode.
+./main.tex:554: Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \spacefactor ...
-l.551 .... Podemos notar também que o ângulo $Â
+l.554 .... Podemos notar também que o ângulo $Â
                                                   _{n}$ é composto pela som...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
-./main.tex:551: You can't use `\spacefactor' in math mode.
+./main.tex:554: You can't use `\spacefactor' in math mode.
 \add@accent ... \accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.551 .... Podemos notar também que o ângulo $Â
+l.554 .... Podemos notar também que o ângulo $Â
                                                   _{n}$ é composto pela som...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1411,20 +1392,20 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 
 Missing character: There is no � in font cmex10!
 
-LaTeX Warning: Command \^ invalid in math mode on input line 551.
+LaTeX Warning: Command \^ invalid in math mode on input line 554.
 
-./main.tex:551: Please use \mathaccent for accents in math mode.
+./main.tex:554: Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \spacefactor ...
-l.551 ...dos triângulos particionados que tem $Â
+l.554 ...dos triângulos particionados que tem $Â
                                                   _{n}$ como vértice. Dessa...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
-./main.tex:551: You can't use `\spacefactor' in math mode.
+./main.tex:554: You can't use `\spacefactor' in math mode.
 \add@accent ... \accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.551 ...dos triângulos particionados que tem $Â
+l.554 ...dos triângulos particionados que tem $Â
                                                   _{n}$ como vértice. Dessa...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1433,40 +1414,37 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 
 Missing character: There is no � in font cmex10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--569
+Underfull \hbox (badness 10000) in paragraph at lines 570--572
 
  []
 
 
-./main.tex:586: LaTeX Error: \begin{solution} on input line 514 ended by \end{something}.
+./main.tex:589: LaTeX Error: \begin{solution} on input line 517 ended by \end{something}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.586 \end{something}
+l.589 \end{something}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 588--589
+Underfull \hbox (badness 10000) in paragraph at lines 591--592
 
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 590.
+Package mdframed Info: mdframed works in twoside mode on input line 593.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 590.
+(mdframed)              on input line 593.
 (./figures/2.3.14.tex)
 File: figures/2.3.14.tex Graphic file (type tex)
-
-Underfull \vbox (badness 1552) has occurred while \output is active []
-
  [13]
-./main.tex:618: Undefined control sequence.
-l.618         \epsilon + \theta + \alpha + 8\apha
+./main.tex:621: Undefined control sequence.
+l.621         \epsilon + \theta + \alpha + 8\apha
                                                   = 360^\circ
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1475,41 +1453,41 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--639
+Underfull \hbox (badness 10000) in paragraph at lines 641--642
 
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 640.
+Package mdframed Info: mdframed works in twoside mode on input line 643.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 640.
-Package mdframed Info: Not enough space on this page on input line 644.
+(mdframed)              on input line 643.
+Package mdframed Info: Not enough space on this page on input line 647.
 [14]
-Package mdframed Info: Not enough space on this page on input line 644.
+Package mdframed Info: Not enough space on this page on input line 647.
  (./figures/2.3.18.tex)
 File: figures/2.3.18.tex Graphic file (type tex)
 
-Overfull \hbox (26.65654pt too wide) in paragraph at lines 659--660
+Overfull \hbox (26.65654pt too wide) in paragraph at lines 662--663
  [][] 
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 694--695
+Underfull \hbox (badness 10000) in paragraph at lines 697--698
 
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 696.
+Package mdframed Info: mdframed works in twoside mode on input line 699.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 696.
-Package mdframed Info: mdframed works in twoside mode on input line 715.
+(mdframed)              on input line 699.
+Package mdframed Info: mdframed works in twoside mode on input line 718.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 715.
+(mdframed)              on input line 718.
 (./figures/2.4.5.tex)
 File: figures/2.4.5.tex Graphic file (type tex)
 
-Overfull \hbox (19.13298pt too wide) in paragraph at lines 726--727
+Overfull \hbox (19.13298pt too wide) in paragraph at lines 729--730
  [][] 
  []
 
@@ -1517,34 +1495,99 @@ Overfull \hbox (19.13298pt too wide) in paragraph at lines 726--727
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16]
-Underfull \hbox (badness 10000) in paragraph at lines 744--745
+Underfull \hbox (badness 10000) in paragraph at lines 747--748
 
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 746.
+Package mdframed Info: mdframed works in twoside mode on input line 749.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 746.
-[17] (./main.aux)
+(mdframed)              on input line 749.
+(./figures/2.4.7.tex)
+File: figures/2.4.7.tex Graphic file (type tex)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+Underfull \hbox (badness 10000) in paragraph at lines 776--777
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 786--787
+
+ []
+
+Package mdframed Info: mdframed works in twoside mode on input line 804.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 804.
+Package mdframed Info: Not enough space on this page on input line 808.
+[18]
+Package mdframed Info: Not enough space on this page on input line 808.
+ (./figures/2.5.3.tex)
+File: figures/2.5.3.tex Graphic file (type tex)
+
+Underfull \hbox (badness 10000) in paragraph at lines 817--822
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 817--822
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 817--822
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 817--822
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 827--828
+
+ []
+
+Package mdframed Info: mdframed works in twoside mode on input line 829.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 829.
+(./figures/2.5.5.tex)
+File: figures/2.5.5.tex Graphic file (type tex)
+ [19]
+Underfull \hbox (badness 10000) in paragraph at lines 879--882
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 908--909
+
+ []
+
+[21] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4D1993480F821230D9D34B0E93F43246;590.
+(rerunfilecheck)             Checksum: 96E71649D245033219045A26BAD0CB16;665.
  ) 
 Here is how much of TeX's memory you used:
- 25900 strings out of 481252
- 496039 string characters out of 5915889
- 946051 words of memory out of 5000000
- 42161 multiletter control sequences out of 15000+600000
+ 24987 strings out of 481232
+ 484835 string characters out of 5915107
+ 936337 words of memory out of 5000000
+ 41243 multiletter control sequences out of 15000+600000
  412822 words of font info for 61 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 98i,15n,102p,649b,1005s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 16 hyphenation exceptions out of 8191
+ 98i,15n,102p,880b,1007s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (17 pages, 513288 bytes).
+Output written on main.pdf (21 pages, 532244 bytes).
 PDF statistics:
- 314 PDF objects out of 1000 (max. 8388607)
- 252 compressed objects within 3 object streams
- 100 named destinations out of 1000 (max. 500000)
- 150 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 346 PDF objects out of 1000 (max. 8388607)
+ 280 compressed objects within 3 object streams
+ 112 named destinations out of 1000 (max. 500000)
+ 158 words of extra memory for PDF output out of 10000 (max. 10000000)
 
